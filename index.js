@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const options = {
         title: {
-          text: 'Döda per region, 7 dagars rullande medelvärde'
+          text: 'Döda per region, 7 dagars rullande medelvärde (log)'
         },
         credits: {
           enabled: false
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const optionsLin = {
         title: {
-          text: 'Döda per region, 7 dagars rullande medelvärde (LINEAR)'
+          text: 'Döda per region, 7 dagars rullande medelvärde (linjär)'
         },
         credits: {
           enabled: false
